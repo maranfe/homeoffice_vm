@@ -1,2 +1,2 @@
 # homeoffice_vm
-Automação de configuração de VM personalizada para homeoffice
+Automação para a criação de VM personalizada para homeoffice com ansible
