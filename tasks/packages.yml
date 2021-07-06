@@ -7,6 +7,7 @@
       - guake
       - keepass2
       - netcat-openbsd
+      - network-manager-vpnc
       - nmap
       - openjdk-11-jre:amd64
       - openjdk-11-jre-headless:amd64
