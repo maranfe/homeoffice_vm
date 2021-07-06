@@ -1,6 +1,21 @@
 - name: Install packages
   apt:
     name:
-      - htop 
-      - mc
-      - tmux
+      - chromium-browser
+      - chromium-browser-l10n
+      - clipit
+      - guake
+      - keepass2
+      - netcat-openbsd
+      - nmap
+      - openjdk-11-jre:amd64
+      - openjdk-11-jre-headless:amd64
+      - openssh-client
+      - openssh-server
+      - tcpdump
+      - tigervnc-viewer
+      - tightvncserver
+      - traceroute
+      - unrar
+      - vpnc
+      - vpnc-scripts
