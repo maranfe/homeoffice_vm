@@ -1,0 +1,7 @@
+- name: copia arquivos
+  copy:
+    src: files/*
+    dest: $HOME
+    owner: $USER
+    group: $USER
+    mode: 0755
