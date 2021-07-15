@@ -1,6 +1,6 @@
 - name: copia arquivos
   copy:
-    src: files/*
+    src: files/arquivos.tar.gz
     dest: $HOME
     owner: $USER
     group: $USER
