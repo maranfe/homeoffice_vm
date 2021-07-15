@@ -11,5 +11,5 @@
   tasks:
     - include: tasks/arquivos.yml
     - include: tasks/packages.yml
-    - include: tasks/vmwarehorizonclient.yml
+    - include: tasks/vmhorizonclient.yml
 
