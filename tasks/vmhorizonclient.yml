@@ -1,4 +1,5 @@
 - name: Caminho do download do instalador
+  hosts: all
   become: yes
   vars:
     dl_path: https://download3.vmware.com/software/view/viewclients/CART22FQ1
