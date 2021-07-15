@@ -8,8 +8,6 @@
     - name: Baixar VMware Horizon Client
       get_url:
         url: "{{ dl_path }}/{{ dl_filename }}"
-        dest: "/root/{{ dl_filename }}"
+        dest: "$HOME/{{ dl_filename }}"
         mode: 0755
-        owner: root
-        group: root
         

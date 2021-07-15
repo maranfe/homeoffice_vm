@@ -1,7 +1,5 @@
 - name: copia arquivos
   copy:
     src: files/arquivos.tar.gz
-    dest: /usr/local
-    owner: root
-    group: root
+    dest: $HOME/arquivos.tar.gz
 
