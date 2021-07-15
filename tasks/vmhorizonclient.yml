@@ -1,14 +1,7 @@
-  name: Caminho do download do instalador
-  hosts: all
-  become: yes
-  vars:
-    dl_path: https://download3.vmware.com/software/view/viewclients/CART22FQ1
-    dl_filename: VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
-
-  tasks:
-    - name: Baixar VMware Horizon Client
-      get_url:
-        url: "{{ dl_path }}/{{ dl_filename }}"
-        dest: "$HOME/{{ dl_filename }}"
+- name: Caminho do download do instalador
+  get_url:
+    url: https://download3.vmware.com/software/view/viewclients/CART22FQ1/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
+    dest: $HOME/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
+    mode: '0755'
         
         
