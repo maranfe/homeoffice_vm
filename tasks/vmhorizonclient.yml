@@ -1,3 +1,4 @@
+---
 - name: Caminho do download do instalador
   hosts: all
   become: yes
