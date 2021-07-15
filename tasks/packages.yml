@@ -6,11 +6,17 @@
       - clipit
       - guake
       - keepass2
+      - libpam0g:i386
+      - libnss3-tools
+      - libstdc++5:i386
+      - libstdc++6:i386
+      - libx11-6:i386
       - netcat-openbsd
       - network-manager-vpnc
       - nmap
       - openjdk-11-jre:amd64
       - openjdk-11-jre-headless:amd64
+      - openssl
       - openssh-client
       - openssh-server
       - tcpdump
@@ -20,3 +26,4 @@
       - unrar
       - vpnc
       - vpnc-scripts
+      - xterm
