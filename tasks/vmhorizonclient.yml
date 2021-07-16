@@ -3,7 +3,4 @@
     url: https://download3.vmware.com/software/view/viewclients/CART22FQ1/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
     dest: $HOME/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
     mode: '0755'
-  get_url:
-    url: https://gitlab.com/librewolf-community/browser/appimage/-/jobs/1374407522/artifacts/raw/LibreWolf-89.0.2-1.x86_64.AppImage
-    dest: $HOME/LibreWolf-89.0.2-1.x86_64.AppImage
-    mode: '0755'
+

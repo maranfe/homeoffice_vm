@@ -1,0 +1,5 @@
+- name: Baixar VMware Horizon Client
+  get_url:
+    url: https://gitlab.com/librewolf-community/browser/appimage/-/jobs/1374407522/artifacts/raw/LibreWolf-89.0.2-1.x86_64.AppImage
+    dest: $HOME/LibreWolf-89.0.2-1.x86_64.AppImage
+    mode: '0755'
