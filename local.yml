@@ -12,4 +12,6 @@
     - include: tasks/arquivos.yml
     - include: tasks/packages.yml
     - include: tasks/vmhorizonclient.yml
+    - include: tasks/librewolf.yml
+    
 
