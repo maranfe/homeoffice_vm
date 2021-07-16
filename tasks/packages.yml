@@ -1,8 +1,6 @@
 - name: Install packages
   apt:
     name:
-      - chromium-browser
-      - chromium-browser-l10n
       - clipit
       - guake
       - keepass2
@@ -20,8 +18,10 @@
       - openssh-client
       - openssh-server
       - tcpdump
+      - terminator
       - tigervnc-viewer
       - tightvncserver
+      - tomboy
       - traceroute
       - unrar
       - vpnc
