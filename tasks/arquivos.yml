@@ -1,5 +1,5 @@
 - name: copia arquivos
   copy:
     src: files/arquivos.tar.gz
-    dest: $HOME/arquivos.tar.gz
+    dest: /usr/local/arquivos.tar.gz
 
