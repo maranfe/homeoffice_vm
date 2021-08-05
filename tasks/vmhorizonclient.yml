@@ -3,12 +3,6 @@
     url: https://download3.vmware.com/software/view/viewclients/CART22FQ1/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
     dest: /usr/local/VMware-Horizon-Client-2103-8.2.0-17742757.x64.bundle
     mode: '0755'
-        
-- name: Baixar LibreWolf
-  get_url:
-    url: https://gitlab.com/librewolf-community/browser/appimage/-/jobs/1374407522/artifacts/raw/LibreWolf-89.0.2-1.x86_64.AppImage
-    dest: /usr/local/LibreWolf-89.0.2-1.x86_64.AppImage
-    mode: '0755'
 
 - name: Baixar RocketChat
   get_url:
