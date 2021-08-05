@@ -10,7 +10,7 @@
     dest: /usr/local/LibreWolf-89.0.2-1.x86_64.AppImage
     mode: '0755'
 
-- name: Baixar LibreWolf
+- name: Baixar RocketChat
   get_url:
     url: https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.2.3/rocketchat_3.2.3_amd64.deb
     dest: /usr/local/rocketchat_3.2.3_amd64.deb
